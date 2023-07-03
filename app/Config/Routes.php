@@ -32,7 +32,7 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 $routes->get('/welcome', 'Welcome::index');
 $routes->get('welcome', [Welcome::class, 'index']);
-$routes->get('welcome/login', [Welcome::class, 'view']);
+$routes->get('login', [Welcome::class, 'view']);
 /*
  * --------------------------------------------------------------------
  * Additional Routing
