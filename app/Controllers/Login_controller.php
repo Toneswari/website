@@ -5,7 +5,7 @@ class Login_controller extends Controller{
     public function index()
 {
     // return view('welcome_message');
-    echo "hi welcome to this website";
+    echo "login successful!";
     // $this->load->view('login');
     
 }
