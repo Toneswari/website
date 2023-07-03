@@ -7,7 +7,7 @@ class Welcome extends BaseController
 public function index()
 {
     // return view('welcome_message');
-    echo "hi welcome to this website";
+   // echo "hi welcome to this website";
     // $this->load->view('login');
     
 }

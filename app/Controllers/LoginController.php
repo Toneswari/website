@@ -6,6 +6,8 @@ class LoginController extends Controller{
 {
     // return view('welcome_message');
     echo "login successful!";
+    return view("header");
+    return view("footer");
     // $this->load->view('login');
     
 }
