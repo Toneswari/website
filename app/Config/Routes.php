@@ -33,6 +33,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/welcome', 'Welcome::index');
 $routes->get('welcome', [Welcome::class, 'index']);
 $routes->get('login', [Welcome::class, 'view']);
+$routes->get('LoginController.php',[LoginController::class,'index'])
 /*
  * --------------------------------------------------------------------
  * Additional Routing
